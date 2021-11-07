@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE</title>
+</head>
+<body>
+    <form action=",/text.PHP" method="POST">
+        <label for="Nom">Nom</label> <br>
+        <input type="text" name="Nom" id="Nom" required>
+        <br>
+        <input type="submit" value="validation">
+        <br><br>
+        <label for="Prenom">Prénom</label> <br>
+        <input type="text" name="Prénom" id="Prénom" required>
+        <br>
+        <input type="submit" value="validation">
+        <br><br>
+    <form>
+        
+        <div>
+             Date de naissance
+            <label for="Date de naissance" Date de naissance></label> <br>
+            <input type="Date" name="Date de naissance" id="bday" required>
+            <br>
+            <input type="submit">
+            <br><br>
+        </div>
+        <br><br>
+        <div>
+             Sexe <br>
+             <label for="Homme">Homme</label> <br>
+            <input type="radio" name="Sexe" id="Homme" value="Homme"> <br>
+        </div>
+
+        <div>
+            <label for="Femme">Femme</label> <br>
+            <input type="radio" name="Sexe" id="Femme" value="Femme"> <br>  
+        </div>
+        <br><br>
+        <div>
+            Pays(France, Italie, Allemagne) <br>
+         <label for="Pays-select"Pays></label>
+         <select name="Pays" id="Pays-select">
+            <option value="">Choisir un option</option>
+            <option value="France">France</option>
+            <option value="Italie">Italie</option>
+            <option value="Allemagne">Allemagne</option>
+        </select>
+        </div>
+        <br><br>
+        <div>
+            <label for="Description">Description</label> <br>
+            <textarea name="Description" id="Description" cols="30" rows="10"></textarea> <br>
+            <input type="submit" value="validation">
+        </div>
+    </form>
+
+    </form>
+</body>
+</html>

@@ -6,12 +6,28 @@
     <title>Document</title>
 </head>
 <body class="bod">
+    <nav id="select">
+        <h1>ARTICLE</h1>
+        <ul id="rubrique">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Actualité</a></li>
+            <li><a href="#">Bibliothèque</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <ul id="menu">
+            <li><a href="#" id="connecter">Se connecter</a></li>
+            <li><a href="#" id="inscrire">S'inscrire</a></li>
+        </ul>
+    </nav>
     <p class="center" id="Afrique">Afrique</p>
     <div id="test">Afrique, mon Afrique est le contient le plus riche en ressources naturelles mais aussi en ressources humaines car on y retrouve divers cultures, divers langues, divers ethnies...
     </div>
     <br><br>
 
-    <div class="image"></div> <a href="https://www.google.com/search?q=afrique&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiawt31h-PzAhVHDmMBHYlQC0gQ_AUoAXoECAEQAw&biw=1360&bih=578&dpr=1" target="_blank">carte d'Afrique</a>
+    <div class="image"></div>
+    <div id="div"><a href="https://www.google.com/search?q=afrique&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiawt31h-PzAhVHDmMBHYlQC0gQ_AUoAXoECAEQAw&biw=1360&bih=578&dpr=1" target="_blank">carte d'Afrique</a></div>
+    
+    
     <BR></BR>
     <DIV id="test1">
         Mon Afrique est un continent, comme on le dit souvent avec ses mystères, avec ses réalités et avec sa beauté qui ne cesse de séduire ceux qui cherchent à le découvrir. <br>
@@ -62,27 +78,41 @@
             </div>                            <h6 id="aut">Auteur:Ba Amadou</h6>
             <br><br>
             <br><br>
-            <div class="champ">
-                <form action="" method="post">
-                    <label for="email">Entrez votre email:</label> <br>
-                    <input type="email" id="email">
-                    <input type="submit"> <br><br>
-                </form>
-                <form action="text" method="get"> 
-                    <label for="Nom">Entrez votre Nom au complet ou speudo</label><br>
-                    <input type="text" id="Nom">
-                    <input type="submit"> <br><br>
-                    <label for="Commentaire">Commentaire</label><br>
-                    <textarea name="Commentaire" id="Commentaire" cols="40" rows="20"></textarea><br>
-                    <input type="submit" value="validation"><br><br>
-                    
-                    <div>
-                        <br><br>
-                    </div>
-                </form>
-            </div>
-         </div>
-        
+            <hr>
+            <div id="champs">
+                <div id="contact">
+                    <h3>Mes Coordonnées</h3><br><br>
+                    <ul>
+                        <li>Adresse : Campement Ngékhoh</li>
+                        <li>Tel : +221 77 183 85 32</li>
+                        <LI>Email : amadou.ba2@uvs.edu.sn</LI>
+                    </ul>
+                </div>
+                <div id="commentaire">
+                    <h3>Vos Commentaires</h3><br><br>
+                    <form action="">
+                        <p>
+                            <label for="name">Nom</label>
+                            <input type="text" id="name">
+                        </p>
+                        <p>
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom">
+                        </p>
+                        <p>
+                            <label for="mail">Email</label>
+                            <input type="text" id="mail">
+                        </p>
+                        <p class="com">
+                            <label for="avis">Commenter!</label>
+                            <textarea name="avis" id="avis" cols="30" rows="10"></textarea>
+                        </p>
+                        <p class="com">
+                            <input type="submit" value="Entrer">
+                        </p>
+                    </form>
+                </div>
+            </div>          
     </DIV>
 </body>
 </html>
