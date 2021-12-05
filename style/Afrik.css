@@ -1,0 +1,58 @@
+.cherche li {
+    width: 2px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.cherche {
+    margin-right: 0;
+    margin-left: 85%;
+}
+
+.cherche li button::after {
+    content: '\1F50D';
+    font-size: 20px;
+    text-align: center;
+    
+}
+.cherche input {
+    width: 127px;
+    height: 28px;
+}
+button {
+    height: 28px;
+    background-color: rgb(255, 255, 128);
+    text-align: center;
+    border: 1 solid white;
+}
+
+.cherche li button:hover {
+     box-shadow: 4px 3px 5px grey;
+
+}  
+
+.sousmnu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+
+nav li:hover .sousmnu {
+    display: block;
+}
+
+.sousmnu li {
+    width: calc(100vw /14);
+    display: block;
+    text-align: center;
+
+}
+
+.sousmnu li a {
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+#select .sousmnu a{
+    padding: 4px;
+}
